@@ -6,7 +6,7 @@ body {background-image: url("background.jpg");
 }
 
 #wrapper {
-		 width: 80%;
+		 width: 90%;
 		 margin: auto;
 		 text-align: center; 
 }
@@ -15,22 +15,6 @@ th {
 	width: 20%;
 	margin:auto;
   } 
-#about{
-	display: inline-block;
-	float: left;
-	width: 33%;
-	text-align: left;
-}
-#vinyl{
-	display: inline-block;
-	width: 66%;
-	text-align: left;
-}
-#artists{
-	display: inline-block;
-	width:fit-content;
-	text-align: right;
-}
 #header {line-height: 250%;
 	  text-align: center;
 	  font-size: 150%;
@@ -114,4 +98,7 @@ img {
 }
 .gallery__selector:checked ~ .gallery__thumb > img {
 	box-shadow: 0 0 0 3px #dc9665;
+}
+.float{
+	float:right;
 }
